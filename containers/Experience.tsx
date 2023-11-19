@@ -1,11 +1,10 @@
 import React from 'react';
-import { experience } from '../portfolio';
 import { Container, Row } from 'reactstrap';
 import ExperienceCard from '../components/ExperienceCard';
 
 const Experience = () => {
   return (
-    experience && (
+    (
       <section className="section section-lg">
         <Container>
           <div className="d-flex p-4">
@@ -19,9 +18,6 @@ const Experience = () => {
             </div>
           </div>
           <Row className="row-grid align-items-start">
-            {experience.map((data, i) => {
-              return <ExperienceCard key={i} {...data} />;
-            })}
           </Row>
         </Container>
       </section>

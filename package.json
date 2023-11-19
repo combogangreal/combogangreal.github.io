@@ -1,17 +1,19 @@
 {
-  "name": "developer-portfolio",
+  "name": "website",
   "version": "2.0.0",
-  "description": "Software Developer Portfolio Template built with react.js bootstrap that helps you showcase your work and skills as a software developer.",
+  "description": "My website",
   "main": "index.js",
-  "repository": "https://github.com/1hanzla100/hanzla-portfolio.git",
-  "author": "Hanzla Tauqeer",
+  "repository": "https://github.com/combogangreal/combogangreal.github.io",
+  "author": "Combo Gang",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint && prettier --check .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build" 
   },
   "dependencies": {
     "@apollo/client": "^3.3.21",

@@ -1,11 +1,10 @@
-import { feedbacks } from '../portfolio';
 import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
 import FeedbackCard from '../components/FeedbackCard';
 
 const Feedbacks = () => {
   return (
-    feedbacks && (
+    (
       <section className="section section-lg">
         <Container>
           <div className="d-flex p-4">
@@ -19,13 +18,7 @@ const Feedbacks = () => {
             </div>
           </div>
           <Row className="row-grid align-items-center">
-            {feedbacks.map((data, i) => {
-              return (
-                <Col key={i} lg={6}>
-                  <FeedbackCard {...data} />
-                </Col>
-              );
-            })}
+
           </Row>
         </Container>
       </section>
