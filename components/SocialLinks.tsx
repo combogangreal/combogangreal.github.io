@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'reactstrap';
 import { socialLinks } from '../portfolio';
+import { FaDiscord } from 'react-icons/fa'
 
 const SocialLinks = () => {
   return (
@@ -22,7 +23,7 @@ const SocialLinks = () => {
       {socialLinks.linkedin && (
         <Button
           className="btn-icon-only rounded-circle ml-1"
-          color="twitter"
+          color="linkedin"
           rel="noopener"
           aria-label="Linkedin"
           href={socialLinks.linkedin}
@@ -89,8 +90,24 @@ const SocialLinks = () => {
           </span>
         </Button>
       )}
+      {socialLinks.discord && (
+        <Button
+          className="btn-icon-only rounded-circle"
+          color="twitter"
+          href={socialLinks.discord}
+          target="_blank"
+          rel="noopener"
+          aria-label="Discord"
+        >
+          <span className='btn-inner--icon'>
+            <FaDiscord />
+          </span>
+        </Button>
+
+      )}
     </div>
   );
+
 };
 
 export default SocialLinks;

@@ -25,6 +25,7 @@ export const socialLinks: SocialLinksType = {
   github: 'https://github.com/combogangreal',
   instagram: 'https://www.instagram.com/combogangdev/',
   twitter: 'https://twitter.com/ComboGangDev',
+  discord: 'https://discord.gg/uze96ZDw'
 };
 
 export const skillsSection: SkillsSectionType = {
