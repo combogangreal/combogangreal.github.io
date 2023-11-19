@@ -118,6 +118,10 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Jinja',
           iconifyTag: 'vscode-icons:file-type-jinja',
         },
+        {
+          skillName: 'PhP',
+          iconifyTag: 'logos:php',
+        },
       ],
     },
     {
