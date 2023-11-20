@@ -196,6 +196,11 @@ export const projects: ProjectType[] = [
     name: 'Combo-Bot',
     desc: 'A custom discord bot with buy/order system',
     github: 'https://github.com/combogangreal/Bot',
+  },
+  {
+    name: 'Sample-Bot',
+    desc: 'A advanced discord bot template with a sqlite3 database, cog loading, sample moderation cog, and slash commands',
+    github: 'https://github.com/combogangreal/Example-Bot/tree/main'
   }
 ];
 
