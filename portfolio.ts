@@ -160,6 +160,10 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Nginx',
           iconifyTag: 'logos:nginx',
         },
+        {
+          skillName: 'Vercel',
+          iconifyTag: 'logos:vercel',
+        },
       ],
     },
   ],
